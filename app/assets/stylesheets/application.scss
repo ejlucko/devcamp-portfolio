@@ -11,6 +11,12 @@ a:hover {
   color: #fff;
 }
 
+.site-wrapper {
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -78,12 +84,15 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 62em) {
   .masthead-brand {
-    float: left;
+    float: none;
   }
   .nav-masthead {
-    float: right;
+    float: none;
+  }
+  .cover-container {
+    width: 55rem;
   }
 }
 
