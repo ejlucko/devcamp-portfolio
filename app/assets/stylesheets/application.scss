@@ -47,7 +47,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 75em;
 }
 
 
@@ -92,7 +92,7 @@ body {
     float: none;
   }
   .cover-container {
-    width: 55rem;
+    width: 75rem;
   }
 }
 
@@ -125,11 +125,16 @@ body {
   padding: 10px;
   color: black;
   text-align: left;
-
 }
 
-.auth-links a {
-  color: black;
+.auth-links {
+  a {
+    color: black;
+  }
+}
+
+.register-text {
+  text-align: right;
 }
 
 
